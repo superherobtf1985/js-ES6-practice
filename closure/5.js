@@ -13,7 +13,6 @@ increment();
 increment();
 
 function addStringFactory(tail) {
-  // クロージャ
   return function(str) {
     return str + tail;
   };
